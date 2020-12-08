@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background:#000000;
+    font-size: initial;
+    font-family: 'Raleway';
+    color: #ffffff;
+}
+.header,
+.desc-section,
+.icons-section, 
+.pictures,
+.footer,
+.traits-container,
+.traits {
+  width: 100%;
+  height: auto;
+  float: left; 
+}
+
+.header {
+  text-align: center;
+  height: auto;
+  float: left;
+
+}
+.header img{
+  width: 1050px;
+  height: 630px;
+
+}
+
+.desc-section{
+  text-align: left;
+  height: auto;
+  float: left;
+  
+}
+.desc-section p{
+  width: 475px;
+  height: 197px;
+  float: left;
+  margin: 50px;
+  padding: 9px;
+  margin-left: 246px;
+ 
+}
+.desc-section img{
+  width: 323px;
+  height: 230px;
+  float: left;
+  padding: 3px;
+  
+}
+
+.icons-section {
+  background-color: #1e1a13;
+  text-align: center;
+}
+
+.traits-container {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1e1a13
+}
+
+.traits{
+  float: left;
+  width: 33%;
+    
+}
+
+.traits i{
+  font-size: xx-large;
+}
+
+.pictures{
+  text-align: center;
+}
+.pictures img{
+  width: 316px;
+  height: 202px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 46px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer{
+  text-align: center;
+  background-color: #1e1a13;
+}
